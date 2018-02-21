@@ -1,5 +1,8 @@
 # Amazon_API
 From JAN code, obtain ASIN code, price, review, category and ranking on Amazon market by using Amazon API.
+<img src="https://github.com/shutokawabata0723/Amazon_API/blob/master/amazon_api.png" width="800px">
+
+
 
 # Important portion
 Can get information of Amazon from only JAN code.
@@ -42,6 +45,8 @@ def amazon_api(JAN,name,price,url,counter):
 			group = product.product_group
 			rank  = product.sales_rank
 ```
+
+
 # Caution
 You need to create "ASSOCIATE TAG", "ACCESS KEY", "SECRET ACCESS KEY" for using Amazon API in advance.<br>
 As default, you can get information of 2000 items per hour.<br>
