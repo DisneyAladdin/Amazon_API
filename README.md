@@ -1,5 +1,5 @@
 # Amazon_API
-From JAN code, obtain ASIN code, price, review, category and ranking on Amazon market by using Amazon API.
+From JAN code, obtain ASIN code, price, review, category, image of merchandise and ranking on Amazon market by using Amazon API.
 <img src="https://github.com/shutokawabata0723/Amazon_API/blob/master/amazon_api.png" width="800px">
 
 
@@ -17,6 +17,7 @@ Check before running
 # Output
 /output/output2.csv
 
+In addtition to inputs, amazon's price, image of merchandise, ASIN code, beneficial rate are added.
 
 # Usage and Flow
 0. Import modules here
