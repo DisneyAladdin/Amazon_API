@@ -4,9 +4,18 @@ From JAN code, obtain ASIN code, price, review, category and ranking on Amazon m
 # Important portion
 Can get information of Amazon from only JAN code.
 
-This is a big merit for users selling merchandise on Amazon
+This is a big merit for users selling merchandise on Amazon.
 
-# Usage
+# Input
+/output/output.csv
+
+Check before running
+
+# Output
+/output/output2.csv
+
+
+# Usage and Flow
 0. Import modules here
 ```python
 from amazon.api import AmazonAPI
@@ -33,6 +42,9 @@ def amazon_api(JAN,name,price,url,counter):
 			group = product.product_group
 			rank  = product.sales_rank
 ```
+# Caution
+You need to create "ASSOCIATE TAG", "ACCESS KEY", "SECRET ACCESS KEY" for using Amazon API in advance.<br>
+As default, you can get information of 2000 items per hour.<br>
 
 
 
