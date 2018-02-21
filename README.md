@@ -49,6 +49,11 @@ As default, you can get information of 2000 items per hour.<br>
 
 
 # Licence
+CopyRight (c) 2018 Shuto Kawabata
+
+Released under the MIT licence
+
+https://opensource.org/licenses/MIT
 
 # Author
 Shuto Kawabata
