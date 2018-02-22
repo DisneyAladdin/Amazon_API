@@ -2,11 +2,6 @@
 From JAN code, obtain ASIN code, price, review, category, image of merchandise and ranking on Amazon market by using Amazon API.
 <img src="https://github.com/shutokawabata0723/Amazon_API/blob/master/amazon_api.png" width="800px">
 
-
-
-# Important portion
-Can get information of Amazon from only JAN code.
-
 This is a big merit for users selling merchandise on Amazon.
 
 # Input
