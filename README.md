@@ -2,17 +2,15 @@
 From JAN code, obtain ASIN code, price, review, category, image of merchandise and ranking on Amazon market by using Amazon API.
 <img src="https://github.com/shutokawabata0723/Amazon_API/blob/master/amazon_api.png" width="800px">
 
-This is a big merit for users selling merchandise on Amazon.
+This has a big merit for users selling merchandise on Amazon.
 
 # Input
 /output/output.csv
 
-Check before running
 
 # Output
 /output/output2.csv
 
-In addtition to inputs, amazon's price, image of merchandise, ASIN code, beneficial rate are added.
 
 # Usage and Flow
 0. Import modules here
@@ -27,7 +25,7 @@ ACCESS_KEY = "ここにアクセスキーを入力"
 SECRET_ACCESS_KEY = "ここにシークレットアクセスキーを入力"
 ASSOCIATE_TAG = "ここにアソシエイトタグを入力"
 ```
-2. Here, get informations by using API (The most important code)
+2. Here, get informations by API
 ```python
 def amazon_api(JAN,name,price,url,counter):
 	try:
@@ -45,7 +43,7 @@ def amazon_api(JAN,name,price,url,counter):
 
 # Caution
 You need to create "ASSOCIATE TAG", "ACCESS KEY", "SECRET ACCESS KEY" for using Amazon API in advance.<br>
-As default, you can get information of 2000 items per hour.<br>
+As default, you cannot get information more than 2000 items per hour.<br>
 
 
 
